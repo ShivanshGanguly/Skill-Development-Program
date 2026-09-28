@@ -1,0 +1,81 @@
+body {
+    background: rgb(181, 172, 172);
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
+
+#m5 {
+    height: 500px;
+    width: 500px;
+    border: 10px double rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+#div1 {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(129, 6, 6);
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+#div2 {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(126, 126, 3);
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+#div3 {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(6, 77, 6);
+    border-radius: 50%;
+    border: 5px solid black;
+}
+#div1:hover{
+    background-color: red;
+    box-shadow: 0 0 50px red;
+}
+#div2:hover{
+    background-color: yellow;
+    box-shadow: 0 0 50px yellow;
+}
+#div3:hover{
+    background-color: green;
+    box-shadow: 0 0 50px green;
+}
+form{
+    width: 350px;
+    height: 50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    gap: 10px;
+    background-color: rgb(212, 223, 223);
+    backdrop-filter: blur(10px);
+}
+input{
+    background-color: bisque;
+    width:80%;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    transition: 0.3s ease;
+}
+button{
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
